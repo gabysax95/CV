@@ -1,0 +1,86 @@
+body{
+    background-color:#FFF;
+    margin:0;
+    padding:0;
+}
+
+.barraMenu{
+    background-color:#466995;
+    /*background-color:rgba(255,255,255,0.9);*/
+    text-align: center;
+    overflow-y:auto;
+    position:fixed;
+    left:0;
+    top:0;
+    /**/
+    border-bottom:1px solid #466995;
+    width:100%;
+    /**/
+    z-index:1000;
+    
+}
+/*barra principal*/
+.barraMenu ul{
+    padding:0;
+}
+/*barra principal*/
+.barraMenu li{
+    color:white;
+    display:inline-block;
+    font-family:'Abel',san-serif;
+    font-size:16px;
+    font-weight:300;
+    margin:16px 20px;
+    text-transform:uppercase;
+}
+
+/*iluminar al pasar el cursor*/
+.barraMenu li:hover{
+    color:bisque;
+}
+
+.encabezado{
+    background-image:url("http://k38.kn3.net/taringa/2/4/2/8/3/9/09/-splash-/EBF.jpg?1745");
+    background-position: center center;
+    background-size:cover;
+    height:700px;
+    width:100%;
+    opacity:1;
+}
+#encabezado-texto{
+    margin:0 auto;
+    position:relative;
+    text-align:center;
+    top:25%;
+    width:60%;
+}
+.encabezado h1{
+    color:#FFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size:70px;
+    font-weight:400;
+    line-height:60px;
+    margin:0;
+}
+
+.encabezado h2{
+    color:#FFF;
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    font-size:28px;
+    font-weight: 100;
+}
+
+.medio{
+    padding:20px;
+    margin:0 auto;
+    border-bottom:1px solid #EEE;
+}
+.bajo{
+    background-image: url("http://wallpaper-gallery.net/images/orange-blue-wallpaper/orange-blue-wallpaper-20.jpg");
+      background-position: center center;
+    background-size:cover;
+    height:700px;
+    width:100%;
+    opacity:1;
+}
