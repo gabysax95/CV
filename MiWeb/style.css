@@ -5,8 +5,8 @@ body{
 }
 
 .barraMenu{
-    background-color:#466995;
-    /*background-color:rgba(255,255,255,0.9);*/
+   
+
     text-align: center;
     overflow-y:auto;
     position:fixed;
@@ -17,6 +17,8 @@ body{
     width:100%;
     /**/
     z-index:1000;
+    /* background-color:#466995;*/
+     background-color:rgba(255,255,255,0.9);
     
 }
 /*barra principal*/
@@ -25,18 +27,21 @@ body{
 }
 /*barra principal*/
 .barraMenu li{
-    color:white;
+
     display:inline-block;
     font-family:'Abel',san-serif;
-    font-size:16px;
-    font-weight:300;
+    font-size:17px;
+    
+    font-weight:1000px;
     margin:16px 20px;
     text-transform:uppercase;
+    /* color:white;*/
+    color:#14213D;
 }
 
 /*iluminar al pasar el cursor*/
 .barraMenu li:hover{
-    color:bisque;
+    color:white;
 }
 
 .encabezado{
@@ -76,11 +81,55 @@ body{
     margin:0 auto;
     border-bottom:1px solid #EEE;
 }
+.medio img{
+    position:relative;
+    top:6px;
+}
+
+.medio h4{
+    color:black;
+    font-family:'Quicksand', sans-serif;
+    font-size:72px;
+    line-height: 60px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
 .bajo{
     background-image: url("http://wallpaper-gallery.net/images/orange-blue-wallpaper/orange-blue-wallpaper-20.jpg");
       background-position: center center;
-    background-size:cover;
-    height:700px;
-    width:100%;
-    opacity:1;
+   margin:0;
+    padding:40px;
 }
+
+.cuadros{
+    margin:40px auto;
+    width:60%;
+    
+}
+.cuadro{
+    border:1px solid #FFF;
+    padding:40px 0px;
+    margin:5px 0px;
+}
+
+.cuadro h2{
+    font-family:'Quicksand', sans-serif;
+    font-size:24px;
+    text-align: center;
+    font-weight: 100;
+    color:#FFF;
+}
+
+.cuadro p{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:100;
+    line-height: 24px;
+    margin:0 auto;
+    text-align:center;
+    width:60%;
+}
+
+    
